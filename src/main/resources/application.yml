@@ -1,0 +1,9 @@
+spring:
+  application:
+    name: jpa-nativequery-demo
+  datasource:
+    url: jdbc:h2:mem:testdb
+  jpa:
+    hibernate:
+      ddl-auto: create-drop
+    show-sql: true
